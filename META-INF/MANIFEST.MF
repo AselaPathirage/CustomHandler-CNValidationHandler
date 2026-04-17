@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1776419701166
+Build-Jdk-Spec: 11
+Bundle-Description: Custom APIM gateway handler for CN-based mTLS clie
+ nt identityvalidation with F5 trust zone header conditional enforceme
+ nt.
+Bundle-ManifestVersion: 2
+Bundle-Name: CN Validation Handler
+Bundle-SymbolicName: com.example.gateway.cn-validation-handler
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+DynamicImport-Package: *
+Export-Package: com.example.gateway;uses:="org.apache.synapse";version
+ ="1.0.0"
+Import-Package: org.apache.synapse;version="[4.0.0,5.0.0)",org.apache.
+ synapse.core.axis2;version="[4.0.0,5.0.0)",org.apache.axis2.context;v
+ ersion="[1.6.0,2.0.0)",org.apache.axis2.engine;version="[1.6.0,2.0.0)
+ ",org.apache.commons.logging;version="[1.1.0,2.0.0)",javax.security.a
+ uth.x500,java.security.cert,java.net,java.util,org.apache.synapse.res
+ t;version="[4.0.0,5.0.0)",org.apache.axis2;version="[1.6.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-6.3.1.202206071316
+
