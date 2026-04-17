@@ -125,7 +125,3 @@ curl -k https://localhost:8243/<api-context>/1.0.0 \
   -H "X-WSO2-Trust-Zone: internet" \
   -H "X-Client-Cert: $BAD_B64"
 ```
-
-
-
-# CustomHandler-CNValidationHandler
